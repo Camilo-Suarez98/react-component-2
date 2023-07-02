@@ -1,4 +1,46 @@
+:root {
+  --white-color: hsl(0, 0%, 100%);
+  --light-grey-color: hsl(217, 12%, 63%);
+  --medium-grey-color: hsl(216, 12%, 54%);
+  --dark-blue-color: hsl(213, 19%, 18%);
+  --very-dark-blue-color: hsl(216, 12%, 8%);
+  --orange-color: hsl(25, 97%, 53%);
+}
 
-h2 {
-  color: var(--medium-grey-color);
+.card-rating {
+  background-color: var(--very-dark-blue-color);
+  width: 16rem;
+  padding: 20px;
+  border-radius: 20px;
+
+  .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-blue-color);
+  }
+
+  .text {
+    p {
+      color: var(--light-grey-color);
+    }
+  }
+
+  .rating-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 25px;
+
+    button {
+      background-color: var(--orange-color);
+      width: 100%;
+      border-radius: 20px;
+      margin-top: 25px;
+    }
+  }
+
 }

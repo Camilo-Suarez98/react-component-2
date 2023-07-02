@@ -5,6 +5,7 @@ function App() {
 
   return (
     <>
+      <h1>Rating card</h1>
       <Card />
     </>
   )
