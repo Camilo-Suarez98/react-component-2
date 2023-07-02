@@ -7,4 +7,25 @@
   align-items: center;
   border-radius: 100%;
   color: var(--medium-grey-color);
+  cursor: pointer;
+  transition: background-color 0.7s ease-out 100ms;
+
+  &:hover {
+    background-color: var(--orange-color);
+    color: var(--white-color);
+  }
+
+}
+
+.active {
+  background-color: var(--orange-color);
+  color: var(--white-color);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  cursor: pointer;
+  transition: background-color 0.7s ease-out 100ms;
 }
