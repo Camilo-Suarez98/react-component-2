@@ -29,25 +29,30 @@
     }
   }
 
+  .rating-range {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
   .rating-buttons {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-top: 25px;
-
-    button {
-      background-color: var(--orange-color);
-      width: 100%;
-      border-radius: 20px;
-      margin-top: 25px;
-      transition: background-color 0.7s ease-out 100ms;
-      text-transform: uppercase;
-
-      &:hover {
-        background-color: var(--white-color);
-        color: var(--orange-color);
-      }
+  
+  }
+  button {
+    background-color: var(--orange-color);
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 25px;
+    transition: background-color 0.7s ease-out 100ms;
+    text-transform: uppercase;
+  
+    &:hover {
+      background-color: var(--white-color);
+      color: var(--orange-color);
     }
   }
-
 }

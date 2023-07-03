@@ -1,0 +1,27 @@
+.card-thanks {
+  background: linear-gradient(to bottom, var(--dark-blue-color), #20272f, #1c2027, #171a1f, var(--very-dark-blue-color));
+  width: 16rem;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .total-calification {
+    text-align: center;
+    color: var(--orange-color);
+    opacity: 0.6;
+    background-color: var(--dark-blue-color);
+    border-radius: 20px;
+    padding: 5px 0;
+  }
+
+  .text {
+    text-align: center;
+
+    h2 {
+      margin: 0;
+    }
+  }
+}
