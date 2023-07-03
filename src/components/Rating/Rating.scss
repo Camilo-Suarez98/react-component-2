@@ -29,3 +29,9 @@
   cursor: pointer;
   transition: background-color 0.7s ease-out 100ms;
 }
+
+.rating-range {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
