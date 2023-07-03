@@ -21,7 +21,9 @@ export const Card = () => {
     <>
     {
       showThanks ?
+      
       <ThanksCard calification={rating} /> :
+
       <div className='card-rating'>
         <section className="icon">
           <img src="../../../public/icon-star.svg" alt="test" />
