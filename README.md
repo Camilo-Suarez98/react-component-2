@@ -25,6 +25,18 @@ Users should be able to:
 
 ### Screenshot
 
+#### Rating component
+
+<img width="744" alt="image" src="https://github.com/Camilo-Suarez98/react-component-2/assets/68169750/2da2c9e7-bee6-415c-84f1-005475800864">
+
+#### Active states
+
+<img width="525" alt="image" src="https://github.com/Camilo-Suarez98/react-component-2/assets/68169750/fce5ec2c-140c-425c-be84-0ea3afc3f443">
+
+#### Thanks component
+
+<img width="509" alt="image" src="https://github.com/Camilo-Suarez98/react-component-2/assets/68169750/142c7839-bf3b-41d3-b55e-42335cd413ef">
+
 
 ## My process
 
